@@ -4,6 +4,8 @@ on:
   push:
     tags:
       - '*'
+  watch:
+    types: started
 
 jobs:
   buildMac:
